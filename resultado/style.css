@@ -305,3 +305,103 @@ body {
 
     text-decoration: none;
 }
+
+@media (max-width: 375px) {
+    .container {
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lado-esquerdo {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        border-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: 400px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .lado-direito {
+        display: flex;
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .resultado {
+        margin-bottom: 0px;
+        margin-top: -40px;
+    }
+
+    .circulo {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+       
+    .good {
+        font-size: 23px;
+    }
+
+    .desc {
+
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .reacter {
+        width: 300px;
+    }
+
+    .memorer {
+        width: 300px;
+    }
+
+    .verbaler {
+        width: 300px;
+    }
+
+    .visualer {
+        width: 300px;
+    }
+
+    .react {
+        width: 180px;
+        
+    }
+
+    .memory {
+        width: 180px;
+        
+    }
+
+    .verbal {
+        width: 180px;
+        
+    }
+
+    .visual {
+        width: 180px;
+        
+    }
+
+    .continuar {
+        width: 300px;
+        height: 57px;
+        font-size: 18px;
+        background: 0;
+        background-color: hsl(224, 30%, 27%);
+        transition: background-color 0.2s ease;
+    }
+    .continuar:active {
+        background-color: hsl(223, 29%, 22%);
+
+    }
+}
